@@ -1,6 +1,6 @@
 'use client';
 import { useMemo, useState } from 'react';
-const nav = [['▦','Dashboard'],['▥','Tenants'],['♙','Users & Accounts'],['⚿','License Intelligence'],['♧','Groups & Memberships'],['▤','Storage & Services'],['♢','Security & Identity'],['▦','Applications & Permissions'],['▥','Reports']];
+const nav: [string, string][] = [['▦','Dashboard'],['▥','Tenants'],['♙','Users & Accounts'],['⚿','License Intelligence'],['♧','Groups & Memberships'],['▤','Storage & Services'],['♢','Security & Identity'],['▦','Applications & Permissions'],['▥','Reports']];
 const tenants = [
  {name:'BJP Chartered Accountants',users:48,licenses:43,mfa:100,storage:76,health:'Healthy'},
  {name:'Foodserv',users:126,licenses:120,mfa:96,storage:88,health:'Warning'},
